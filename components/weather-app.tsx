@@ -12,14 +12,14 @@ import {
 import { useDebouncedValue } from "@/lib/use-debounced-value";
 
 const defaultCity: GeocodingResult = {
-  id: 5128581,
-  name: "New York",
-  country: "United States",
-  countryCode: "US",
-  latitude: 40.71427,
-  longitude: -74.00597,
-  timezone: "America/New_York",
-  admin1: "New York"
+  id: 0,
+  name: "Greater Noida",
+  country: "India",
+  countryCode: "IN",
+  latitude: 28.4744,
+  longitude: 77.504,
+  timezone: "Asia/Kolkata",
+  admin1: "Uttar Pradesh"
 };
 
 function formatHour(iso: string, timeZone: string) {
@@ -143,7 +143,7 @@ export function WeatherApp() {
     <main className="mx-auto flex min-h-screen w-full max-w-7xl flex-col gap-6 px-4 py-5 sm:px-6 lg:px-8">
       <header className="flex flex-col gap-4 rounded-[2rem] border border-white/70 bg-white/72 p-4 shadow-soft backdrop-blur dark:border-white/10 dark:bg-slate-950/68 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700 dark:text-sky-300">Weather PWA</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-sky-700 dark:text-sky-300">Weather</p>
           <h1 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white sm:text-3xl">Forecast for {city.name}</h1>
         </div>
 
@@ -246,7 +246,7 @@ export function WeatherApp() {
                 </div>
 
                 <div className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
-                  <Metric label="Precipitation" value={`${forecast.current.precipitationProbability}%`} />
+                  <Metric label="Rain chance" value={`${forecast.current.precipitationProbability}%`} />
                   <Metric label="Pressure" value={`${Math.round(forecast.current.pressure)} hPa`} />
                   <Metric label="UV index" value={forecast.current.uvIndex.toFixed(1)} />
                   <Metric label="Cloud cover" value={`${forecast.current.cloudCover}%`} />
@@ -319,8 +319,10 @@ export function WeatherApp() {
 
 function Metric({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
-      <p className="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500 dark:text-slate-400">{label}</p>
+    <div className="min-w-0 rounded-2xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+      <p className="break-words text-[0.68rem] font-semibold uppercase leading-tight tracking-[0.08em] text-slate-500 dark:text-slate-400">
+        {label}
+      </p>
       <p className="mt-2 text-lg font-black text-slate-950 dark:text-white">{value}</p>
     </div>
   );

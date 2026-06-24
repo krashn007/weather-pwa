@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Weather PWA icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Weather icon">
   <rect width="512" height="512" rx="112" fill="#0284c7"/>
   <circle cx="194" cy="190" r="76" fill="#fde68a"/>
   <path fill="#fff" d="M335 352H164c-54 0-98-39-98-87 0-43 36-79 83-86 19-45 67-74 122-66 48 7 87 41 101 84 41 12 70 43 70 80 0 41-48 75-107 75Z"/>

@@ -1,4 +1,4 @@
-# Weather PWA
+# Weather
 
 A production-ready weather Progressive Web App built with Next.js 15, TypeScript, Tailwind CSS, and the free Open-Meteo APIs.
 

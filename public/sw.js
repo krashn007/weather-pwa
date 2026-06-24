@@ -1,5 +1,5 @@
-const APP_CACHE = "weather-pwa-app-v1";
-const API_CACHE = "weather-pwa-api-v1";
+const APP_CACHE = "weather-app-v2";
+const API_CACHE = "weather-api-v2";
 const APP_SHELL = ["/", "/offline.html", "/manifest.webmanifest", "/icons/icon.svg", "/icons/maskable-icon.svg"];
 const OPEN_METEO_HOSTS = new Set(["api.open-meteo.com", "geocoding-api.open-meteo.com"]);
 

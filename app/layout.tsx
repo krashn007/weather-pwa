@@ -14,15 +14,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Weather PWA",
-    template: "%s | Weather PWA"
+    default: "Weather",
+    template: "%s | Weather"
   },
   description: "Fast, installable weather forecasts powered by Open-Meteo.",
-  applicationName: "Weather PWA",
+  applicationName: "Weather",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
-    title: "Weather PWA",
+    title: "Weather",
     statusBarStyle: "default"
   },
   formatDetection: {

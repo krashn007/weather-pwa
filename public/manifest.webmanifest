@@ -1,5 +1,5 @@
 {
-  "name": "Weather PWA",
+  "name": "Weather",
   "short_name": "Weather",
   "description": "Installable city weather forecasts powered by Open-Meteo.",
   "start_url": "/",
