@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Weather PWA maskable icon">
+  <rect width="512" height="512" fill="#0284c7"/>
+  <circle cx="188" cy="184" r="78" fill="#fde68a"/>
+  <path fill="#fff" d="M344 358H154c-57 0-104-42-104-94 0-48 39-87 91-94 22-50 76-82 137-72 51 9 91 46 106 92 45 13 78 48 78 91 0 43-53 77-118 77Z"/>
+  <path fill="#bfdbfe" d="M154 377h190c64 0 117-34 117-77 0-7-1-14-4-21-20 31-62 53-112 53H155c-57 0-104-36-104-80 0-7 1-14 3-21-7 14-10 29-10 45 0 58 49 101 110 101Z" opacity=".85"/>
+</svg>

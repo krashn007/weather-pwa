@@ -1,0 +1,34 @@
+{
+  "name": "Weather PWA",
+  "short_name": "Weather",
+  "description": "Installable city weather forecasts powered by Open-Meteo.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#e0f2fe",
+  "theme_color": "#0284c7",
+  "categories": ["weather", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Open forecast",
+      "short_name": "Forecast",
+      "url": "/",
+      "description": "Open your latest weather dashboard"
+    }
+  ]
+}
